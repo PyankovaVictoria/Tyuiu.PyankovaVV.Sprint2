@@ -24,9 +24,9 @@ namespace Tyuiu.PyankovaVV.Sprint2.Task1.V30
 
             Console.Title = "Спринт #1 | Выполнила: Пьянкова В. В. | АСОиУб-23-2";
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Cпринт №2                                                               *");
-            Console.WriteLine("* Задание №1                                                              *");
-            Console.WriteLine("* Вариант №30                                                             *");
+            Console.WriteLine("* Cпринт #2                                                               *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #30                                                             *");
             Console.WriteLine("* Выполнила: Пьянкова Виктория Вячеславовна / АСОиУб-23-2                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");

@@ -24,7 +24,7 @@ namespace Tyuiu.PyankovaVV.Sprint2.Task0.V10
             Console.WriteLine("* Тема: Алгоритмы разветвляющейся структуры                               *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #10                                                             *");
-            Console.WriteLine("* Выполнил Пьянкова В. В. | АСОиУб-23-2                                   *");
+            Console.WriteLine("* Выполнила Пьянкова Виктория Вячеславовна. В. | АСОиУб-23-2              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу из операций сравнений и арифметических выражений,    *");

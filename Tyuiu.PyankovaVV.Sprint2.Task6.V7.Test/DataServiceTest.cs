@@ -9,7 +9,7 @@ namespace Tyuiu.PyankovaVV.Sprint2.Task6.V7.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidFindMontName()
         {
             DataService ds = new DataService();
 

@@ -12,51 +12,22 @@ namespace Tyuiu.PyankovaVV.Sprint2.Task6.V7.Lib
     {
         public string FindMonthName(int startYear, int n)
         {
-            int allMonths = n % 12;
-            string month;
-            switch (allMonths)
+            switch (n % 12 + 1)
             {
-                case 0:
-                    month = "январь";
-                    break;
-                case 1:
-                    month = "февраль";
-                    break;
-                case 2:
-                    month = "март";
-                    break;
-                case 3:
-                    month = "апрель";
-                    break;
-                case 4:
-                    month = "май";
-                    break;
-                case 5:
-                    month = "июнь";
-                    break;
-                case 6:
-                    month = "июль";
-                    break;
-                case 7:
-                    month = "август";
-                    break;
-                case 8:
-                    month = "сентябрь";
-                    break;
-                case 9:
-                    month = "октябрь";
-                    break;
-                case 10:
-                    month = "ноябрь";
-                    break;
-                case 11:
-                    month = "декабрь";
-                    break;
-                default:
-                    month = "неверное значение";
-                    break;
+                case 1: return "Январь";
+                case 2: return "Февраль";
+                case 3: return "Март";
+                case 4: return "Апрель";
+                case 5: return "Май";
+                case 6: return "Июнь";
+                case 7: return "Июль";
+                case 8: return "Август";
+                case 9: return "Сентябрь";
+                case 10: return "Октябрь";
+                case 11: return "Ноябрь";
+                case 12: return "Декабрь";
+                default: throw new ArgumentException($"Проверте число месяцев ({n})");
             }
-            return month;
         }
     }
 }

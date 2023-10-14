@@ -21,16 +21,37 @@ namespace Tyuiu.PyankovaVV.Sprint2.Task6.V7
             Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнила: Пьянкова Виктория Вячеславовна | АСОиУб-23-2                 *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Условие: С начала 1990 года по некоторый день прошло n месяцев и 2 дня. *");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая использует сокращенную форму записи         *");
+            Console.WriteLine("* оператора switch вычисляет требуемое значение и возвращает результат.   *");
+            Console.WriteLine("* С начала 1990 года по некоторый день прошло n месяцев и 2 дня.          *");
             Console.WriteLine("* Определить название месяца (январь, февраль и т. п.) этого дня.         *");
+            Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите год:");
-            int g = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите сколько месяцев прошло:");
-            int m = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Результат: " + ds.FindMonthName(g, m));
+            Console.WriteLine("Введите количество прошедших месяцев:");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            string res;
+            if (n < 0)
+            {
+                res = "Введено неверное значение!";
+            }
+            else
+            {
+                res = "Это месяц: " + ds.FindMonthName(1990, n);
+            }
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.WriteLine(res);
+
             Console.ReadKey();
+
         }
     }
 }

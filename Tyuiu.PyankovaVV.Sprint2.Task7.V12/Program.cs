@@ -37,11 +37,9 @@ namespace Tyuiu.PyankovaVV.Sprint2.Task7.V12
             Console.WriteLine("Введите значение y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
-            bool res = ds.CheckDotInShadedArea(x, y);
-
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬАТ:                                                               *");
-            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("****************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
+            Console.WriteLine("****************************************************************************");
 
             bool res = ds.CheckDotInShadedArea(x, y);
             if (res == true)
